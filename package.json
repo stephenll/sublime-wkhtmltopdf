@@ -1,0 +1,35 @@
+{
+  "name": "sublime-wkhtmltopdf",
+  "version": "1.0.0",
+  "description": "Convert HTML to PDF via the command line in Sublime Text.",
+  "author": {
+    "name": "Johannes Rappen",
+    "url": "https://github.com/jrappen"
+  },
+  "homepage": "https://github.com/jrappen/sublime-wkhtmltopdf#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrappen/sublime-wkhtmltopdf.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4",
+    "npm": ">= 3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-root-import": "^4.1.3",
+    "chalk": "^1.1.3",
+    "conventional-github-releaser": "^1.1.2",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.4.0",
+    "gulp-conventional-changelog": "^1.1.0",
+    "gulp-help": "^1.6.1",
+    "gulp-if": "^2.0.1",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-stats": "^0.0.4",
+    "run-sequence": "^1.2.2",
+    "yargs": "^7.0.2"
+  }
+}

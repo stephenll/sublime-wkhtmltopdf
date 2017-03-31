@@ -1,0 +1,3 @@
+{
+    "wkhtmltopdf_cmd_options": "--javascript-delay 10000 --outline-depth 8 --encoding utf-8"
+}

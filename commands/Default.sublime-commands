@@ -1,0 +1,37 @@
+[
+    {
+        "caption": "wkhtmltopdf: Convert to PDF",
+        "command": "wkhtmltopdf"
+    },
+    {
+        "caption": "wkhtmltopdf: Documentation (English)",
+        "command": "wkhtmltopdf_docs",
+        "args": { "language": "en-US" }
+    },
+    {
+        "caption": "wkhtmltopdf: Documentation (Deutsch)",
+        "command": "wkhtmltopdf_docs",
+        "args": { "language": "de-DE" }
+    },
+    {
+        "caption": "wkhtmltopdf: Changelog",
+        "command": "wkhtmltopdf_changelog"
+    },
+    {
+        "caption": "wkhtmltopdf: Issues",
+        "command": "wkhtmltopdf_issues"
+    },
+    {
+        "caption": "wkhtmltopdf: Donations",
+        "command": "wkhtmltopdf_donations"
+    },
+    {
+        "caption": "Preferences: wkhtmltopdf: Settings",
+        "command": "edit_settings",
+        "args":
+        {
+            "base_file": "${packages}/wkhtmltopdf/settings/wkhtmltopdf.sublime-settings",
+            "default": "{\n//  run \"wkhtmltopdf --extended-help\" for available options\n\t\"wkhtmltopdf_cmd_options\": \"${1:--javascript-delay 10000 --outline-depth 8 --encoding utf-8}\"\n}\n"
+        }
+    }
+]

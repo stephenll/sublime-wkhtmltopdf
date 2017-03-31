@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>wkhtmltopdf for Sublime Text</title>
+  <meta name="description" content="wkhtmltopdf for Sublime Text">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">Loading...</div>
+</body>
+<script>
+  window.$docsify = {
+    alias: {
+      '/de-DE/changelog': '/changelog'
+    },
+    auto2top: true,
+    autoHeader: true,
+    coverpage: true,
+    executeScript: true,
+    loadNavbar: true,
+    loadSidebar: true,
+    maxLevel: 4,
+    name: 'wkhtmltopdf',
+    repo: 'jrappen/sublime-wkhtmltopdf',
+    search: {
+      paths: 'auto',
+      placeholder: {
+        '/de-DE/': 'Suche',
+        '/': 'Search'
+      },
+      noData: {
+        '/de-DE/': 'Keine Ergebnisse!',
+        '/': 'No results!'
+      }
+    },
+    subMaxLevel: 4
+  }
+
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
+</html>
