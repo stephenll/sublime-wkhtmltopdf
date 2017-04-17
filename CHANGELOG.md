@@ -1,3 +1,10 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.0.2...1.0.3) (2017-04-17)
+
+### Docs
+
+* **navbar**: Add mergeNavbar setting ([1b7b879](https://github.com/jrappen/sublime-wkhtmltopdf/commit/1b7b879))
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.0.1...1.0.2) (2017-04-03)
 
