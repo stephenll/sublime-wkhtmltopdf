@@ -10,7 +10,7 @@ class WkhtmltopdfChangelog(sublime_plugin.TextCommand):
         v = sublime.active_window().new_file()
         v.set_name(__pkg_name__ + ': CHANGELOG')
         v.settings().set('gutter', False)
-        v.insert(edit, 0, sublime.load_resource('Packages/' + __pkg_name__ + '/CHANGELOG.md'))
+        v.insert(edit, 0, sublime.load_resource('Packages/' + __pkg_name__ + '/docs/CHANGELOG.md'))
         v.set_syntax_file('Packages/Markdown/Markdown.sublime-syntax')
         v.set_read_only(True)
         v.set_scratch(True)

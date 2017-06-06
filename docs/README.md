@@ -1,14 +1,15 @@
 <div id="readme"></div>
 
 [![License](https://img.shields.io/github/license/jrappen/sublime-wkhtmltopdf.svg?style=flat-square)](https://github.com/jrappen/sublime-wkhtmltopdf/blob/master/LICENSE)
-[![Sublime Text minimum required version](https://img.shields.io/badge/Sublime%20Text-Build%203118+-orange.svg?style=flat-square)](https://www.sublimetext.com)
+[![Sublime Text minimum required version](https://img.shields.io/badge/Sublime%20Text-Build%203124+-orange.svg?style=flat-square)](https://www.sublimetext.com)
 [![Downloads Package Control](https://img.shields.io/packagecontrol/dt/wkhtmltopdf.svg?style=flat-square)](https://packagecontrol.io/packages/wkhtmltopdf)
 [![Latest release](https://img.shields.io/github/release/jrappen/sublime-wkhtmltopdf.svg?style=flat-square)](https://github.com/jrappen/sublime-wkhtmltopdf/releases/latest)
 [![Donate via PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fjrappen%2Fsublime-wkhtmltopdf.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fjrappen%2Fsublime-wkhtmltopdf?ref=badge_shield)
 
 ## Requirements
 
-* This plug-in targets and is tested against the **latest Build** of Sublime Text, currently requiring `Build 3118` or later.
+* This plug-in targets and is tested against the **latest Build** of Sublime Text, currently requiring `Build 3124` or later.
   * [ST3 (stable)](https://www.sublimetext.com/3)
   * [ST3 (dev)](https://www.sublimetext.com/3dev)
 * [`wkhtmltopdf`](http://wkhtmltopdf.org/downloads.html) must be in your `PATH`!
@@ -61,3 +62,7 @@ Please use the command palette or main menu to report an issue.
 ## Donations
 
 [paypal.me/jrappen](https://www.paypal.me/jrappen)
+
+---
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fjrappen%2Fsublime-wkhtmltopdf.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fjrappen%2Fsublime-wkhtmltopdf?ref=badge_large)

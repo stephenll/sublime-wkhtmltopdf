@@ -4,5 +4,4 @@
 *.pyo
 *.sublime-workspace
 .DS_Store
-.vscode/
 node_modules/
