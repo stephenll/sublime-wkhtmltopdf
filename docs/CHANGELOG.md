@@ -1,3 +1,10 @@
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.0.3...v1.0.4) (2017-06-06)
+
+### Features
+
+* **docs:** update to work with latest docsify version ([15e30db](https://github.com/jrappen/sublime-wkhtmltopdf/commit/15e30db))
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.0.2...1.0.3) (2017-04-17)
 
