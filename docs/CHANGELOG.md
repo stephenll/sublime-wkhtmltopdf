@@ -1,3 +1,15 @@
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/jrappen/sublime-distractionless/compare/1.0.4...1.0.5) (2017-07-14)
+
+### Features
+
+* added `.github/CODE_OF_CONDUCT`
+* added `.github/CODEOWNERS`
+
+### Bug Fixes
+
+* **docs**: fixed base path for edit page links
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.0.3...v1.0.4) (2017-06-06)
 
