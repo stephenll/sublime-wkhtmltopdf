@@ -1,3 +1,10 @@
+<a name="1.0.6"></a>
+## [1.0.6](https://github.com/jrappen/sublime-distractionless/compare/1.0.5...1.0.6) (2017-07-14)
+
+### Bug Fixes
+
+* **npm**: fixed package version
+
 <a name="1.0.5"></a>
 ## [1.0.5](https://github.com/jrappen/sublime-distractionless/compare/1.0.4...1.0.5) (2017-07-14)
 
