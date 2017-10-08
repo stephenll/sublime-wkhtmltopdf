@@ -8,4 +8,4 @@ Please read the docs, which you can find:
 and which are currently available in:
 
 * English
-* Deutsch
+* Deutsch (German)

@@ -1,15 +1,21 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+
 import os
 import sublime
 import sublime_plugin
 import subprocess
 from threading import Thread
 
-from . import __pkg_name__
 from .thread_progress import ThreadProgress
 
 
+PKG_NAME = __package__.split('.')[0]
+
+
 def status_msg(msg):
-    sublime.status_message(__pkg_name__ + ': ' + msg)
+    sublime.status_message('%s: %s' % (msg, PKG_NAME))
 
 
 class Wkhtmltopdf(sublime_plugin.TextCommand):
@@ -30,12 +36,10 @@ class Wkhtmltopdf(sublime_plugin.TextCommand):
                        'Successfully created "%s".' % os.path.split(path_pdf)[1])
 
     def html_to_pdf(self, path_html, path_pdf):
-        settings = sublime.load_settings(__pkg_name__ + '.sublime-settings')
-        default_options = '--javascript-delay 10000 --outline-depth 8 --encoding utf-8'
+        settings = sublime.load_settings('%s.sublime-settings' % (PKG_NAME))
         cmd_options = settings.get('wkhtmltopdf_cmd_options',
-                                   default_options)
-        cmd_to_run = 'wkhtmltopdf ' + cmd_options + ' "%s" "%s"'
-        subprocess.call(cmd_to_run % (path_html, path_pdf),
+                                   '--javascript-delay 10000 --outline-depth 8 --encoding utf-8')
+        subprocess.call('wkhtmltopdf %s %s %s' % (cmd_options, path_html, path_pdf),
                         shell=True)
 
     def is_visible(self):

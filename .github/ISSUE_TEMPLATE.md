@@ -32,7 +32,7 @@ wkhtmltopdf package:
 
 Sublime Text:
     channel: stable
-    version: 3126
-    platform: windows
+    version: 3143 (portable)
+    platform: Windows
     architecture: x64
 ```

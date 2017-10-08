@@ -6,6 +6,6 @@ module.exports = {
         preset: 'angular',
         releaseCount: 0
       }))
-      .pipe(gulp.dest('./'))
+      .pipe(gulp.dest('./docs/'))
   }
 }

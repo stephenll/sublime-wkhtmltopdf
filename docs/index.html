@@ -38,7 +38,7 @@
       function(hook, vm) {
         hook.beforeEach(function (html) {
           var url = 'https://github.com/jrappen/sublime-wkhtmltopdf/blob/master/docs/' + vm.route.file
-          var editHtml = '[:memo: Edit document](' + url + ')\n'
+          var editHtml = '[:memo: Edit page](' + url + ')\n'
 
           return html
             + '\n\n---\n\n'

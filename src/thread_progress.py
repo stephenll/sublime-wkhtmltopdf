@@ -1,5 +1,12 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+
 import sublime
-from . import __pkg_name__
+
+
+PKG_NAME = __package__.split('.')[0]
+
 
 class ThreadProgress():
 
@@ -19,23 +26,23 @@ class ThreadProgress():
         active_view = self.window.active_view()
 
         if self.last_view is not None and active_view != self.last_view:
-            self.last_view.erase_status(__pkg_name__)
+            self.last_view.erase_status(PKG_NAME)
             self.last_view = None
 
         if not self.thread.is_alive():
             def cleanup():
-                active_view.erase_status(__pkg_name__)
+                active_view.erase_status(PKG_NAME)
             if hasattr(self.thread, 'result') and not self.thread.result:
                 cleanup()
                 return
-            active_view.set_status(__pkg_name__, self.success_message)
+            active_view.set_status(PKG_NAME, self.success_message)
             sublime.set_timeout_async(cleanup, 1000)
             return
 
         before = i % self.size
         after = (self.size - 1) - before
 
-        active_view.set_status(__pkg_name__, '%s [%s=%s]' % (self.message, ' ' * before, ' ' * after))
+        active_view.set_status(PKG_NAME, '%s [%s=%s]' % (self.message, ' ' * before, ' ' * after))
         if self.last_view is None:
             self.last_view = active_view
 

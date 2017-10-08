@@ -1,4 +1,5 @@
-__pkg_name__ = 'wkhtmltopdf'
+#!/usr/bin/env python
+# coding: utf-8
 
 
 from .text_commands import *

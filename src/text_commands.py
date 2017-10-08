@@ -1,16 +1,22 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+
 import sublime
 import sublime_plugin
 import webbrowser
-from . import __pkg_name__
+
+
+PKG_NAME = __package__.split('.')[0]
 
 
 class WkhtmltopdfChangelog(sublime_plugin.TextCommand):
 
     def run(self, edit):
         v = sublime.active_window().new_file()
-        v.set_name(__pkg_name__ + ': CHANGELOG')
+        v.set_name('%s: CHANGELOG' % (PKG_NAME))
         v.settings().set('gutter', False)
-        v.insert(edit, 0, sublime.load_resource('Packages/' + __pkg_name__ + '/docs/CHANGELOG.md'))
+        v.insert(edit, 0, sublime.load_resource('Packages/%s/docs/CHANGELOG.md' % (PKG_NAME)))
         v.set_syntax_file('Packages/Markdown/Markdown.sublime-syntax')
         v.set_read_only(True)
         v.set_scratch(True)
