@@ -6,15 +6,12 @@
     "name": "Johannes Rappen",
     "url": "https://github.com/jrappen"
   },
+  "license": "MIT",
   "homepage": "https://github.com/jrappen/sublime-wkhtmltopdf#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jrappen/sublime-wkhtmltopdf.git"
   },
-  "license": [{
-      "type": "MIT",
-      "url": "https://github.com/jrappen/sublime-wkhtmltopdf/blob/master/LICENSE"
-  }],
   "engines": {
     "node": ">= 4",
     "npm": ">= 3"
