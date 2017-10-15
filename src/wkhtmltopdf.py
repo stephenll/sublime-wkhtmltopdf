@@ -12,11 +12,33 @@ from .thread_progress import ThreadProgress
 
 
 PKG_NAME = __package__.split('.')[0]
+PKG_PREF = None
 DEFAULT_OPTIONS = '--javascript-delay 10000 --outline-depth 8 --encoding utf-8'
 
 
 def status_msg(msg):
-    sublime.status_message('{}: {}'.format(msg, PKG_NAME))
+
+    sublime.status_message('{}: {}'.format(PKG_NAME, msg))
+
+
+def load_settings(reload=False):
+
+    global PKG_PREF
+
+    try:
+        PKG_PREF = sublime.load_settings('{}.sublime-settings'.format(PKG_NAME))
+        PKG_PREF.clear_on_change('reload')
+        PKG_PREF.add_on_change('reload', lambda: load_settings(reload=True))
+    except Exception as e:
+        print(e)
+
+    if reload:
+        status_msg('Reloaded settings on change.')
+
+
+def plugin_loaded():
+
+    load_settings()
 
 
 class Wkhtmltopdf(sublime_plugin.TextCommand):
@@ -37,8 +59,7 @@ class Wkhtmltopdf(sublime_plugin.TextCommand):
                        'Successfully created "{}".'.format(os.path.split(path_pdf)[1]))
 
     def html_to_pdf(self, path_html, path_pdf):
-        settings = sublime.load_settings('{}.sublime-settings'.format(PKG_NAME))
-        cmd_options = settings.get('wkhtmltopdf.cmd_options',
+        cmd_options = PKG_PREF.get('wkhtmltopdf.cmd_options',
                                    DEFAULT_OPTIONS)
         subprocess.call('wkhtmltopdf {} {} {}'.format(cmd_options, path_html, path_pdf),
                         shell=True)
