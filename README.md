@@ -8,7 +8,7 @@
 
 ## Documentation
 
-| Language   | Link                                                     |
-|------------|----------------------------------------------------------|
-| :us:, :uk: | <https://jrappen.github.io/sublime-wkhtmltopdf>          |
-| :de:       | <https://jrappen.github.io/sublime-wkhtmltopdf/#/de-DE/> |
+| Language           | Link                                                     |
+|--------------------|----------------------------------------------------------|
+| :uk:, :us: English | <https://jrappen.github.io/sublime-wkhtmltopdf>          |
+| :de: Deutsch       | <https://jrappen.github.io/sublime-wkhtmltopdf/#/de-DE/> |
