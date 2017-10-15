@@ -31,7 +31,7 @@
         "args":
         {
             "base_file": "${packages}/wkhtmltopdf/.sublime/settings/wkhtmltopdf.sublime-settings",
-            "default": "{\n//  run \"wkhtmltopdf --extended-help\" for available options\n\t\"wkhtmltopdf_cmd_options\": \"${1:--javascript-delay 10000 --outline-depth 8 --encoding utf-8}\"\n}\n"
+            "default": "{\n//  run \"wkhtmltopdf --extended-help\" for available options\n\t\"wkhtmltopdf.cmd_options\": \"${1:--javascript-delay 10000 --outline-depth 8 --encoding utf-8}\"\n}\n"
         }
     }
 ]

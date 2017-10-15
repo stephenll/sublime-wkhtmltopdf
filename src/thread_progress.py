@@ -42,7 +42,7 @@ class ThreadProgress():
         before = i % self.size
         after = (self.size - 1) - before
 
-        active_view.set_status(PKG_NAME, '%s [%s=%s]' % (self.message, ' ' * before, ' ' * after))
+        active_view.set_status(PKG_NAME, '{} [{}={}]'.format(self.message, ' ' * before, ' ' * after))
         if self.last_view is None:
             self.last_view = active_view
 

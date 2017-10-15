@@ -12,10 +12,11 @@ from .thread_progress import ThreadProgress
 
 
 PKG_NAME = __package__.split('.')[0]
+DEFAULT_OPTIONS = '--javascript-delay 10000 --outline-depth 8 --encoding utf-8'
 
 
 def status_msg(msg):
-    sublime.status_message('%s: %s' % (msg, PKG_NAME))
+    sublime.status_message('{}: {}'.format(msg, PKG_NAME))
 
 
 class Wkhtmltopdf(sublime_plugin.TextCommand):
@@ -33,13 +34,13 @@ class Wkhtmltopdf(sublime_plugin.TextCommand):
         thread.start()
         ThreadProgress(thread,
                        'Converting HTML to PDF ...',
-                       'Successfully created "%s".' % os.path.split(path_pdf)[1])
+                       'Successfully created "{}".'.format(os.path.split(path_pdf)[1]))
 
     def html_to_pdf(self, path_html, path_pdf):
-        settings = sublime.load_settings('%s.sublime-settings' % (PKG_NAME))
-        cmd_options = settings.get('wkhtmltopdf_cmd_options',
-                                   '--javascript-delay 10000 --outline-depth 8 --encoding utf-8')
-        subprocess.call('wkhtmltopdf %s %s %s' % (cmd_options, path_html, path_pdf),
+        settings = sublime.load_settings('{}.sublime-settings'.format(PKG_NAME))
+        cmd_options = settings.get('wkhtmltopdf.cmd_options',
+                                   DEFAULT_OPTIONS)
+        subprocess.call('wkhtmltopdf {} {} {}'.format(cmd_options, path_html, path_pdf),
                         shell=True)
 
     def is_visible(self):

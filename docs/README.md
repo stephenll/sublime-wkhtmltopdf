@@ -40,7 +40,7 @@ Run `wkhtmltopdf --extended-help` via the command line to check for available op
 
 ```json
 {
-    "wkhtmltopdf_cmd_options": "--javascript-delay 10000 --outline-depth 8 --encoding utf-8"
+    "wkhtmltopdf.cmd_options": "--javascript-delay 10000 --outline-depth 8 --encoding utf-8"
 }
 ```
 
