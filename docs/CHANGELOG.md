@@ -1,3 +1,15 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.0.7...1.1.0) (2017-10-15)
+
+### Bug Fixes
+
+* **docs:** Fix presentation of docs via docsify ([58b732b](https://github.com/jrappen/sublime-wkhtmltopdf/commit/58b732b))
+* **settings:** Rename wkhtmltopdf settings ([e0c96e5](https://github.com/jrappen/sublime-wkhtmltopdf/commit/e0c96e5))
+
+### Features
+
+* **Python:** Enable reloading of settings upon change ([915cb76](https://github.com/jrappen/sublime-wkhtmltopdf/commit/915cb76))
+
 <a name="1.0.7"></a>
 ## [1.0.7](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.0.6...1.0.7) (2017-10-08)
 
