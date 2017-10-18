@@ -12,6 +12,20 @@
                         "children":
                         [
                             {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/wkhtmltopdf/.sublime/settings/wkhtmltopdf.sublime-settings",
+                                    "default": "{\n//  run \"wkhtmltopdf --extended-help\" for available options\n\t\"wkhtmltopdf.cmd_options\": \"${1:--javascript-delay 10000 --outline-depth 8 --encoding utf-8}\"\n}\n"
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Changelog",
+                                "command": "wkhtmltopdf_changelog"
+                            },
+                            {
                                 "caption": "Documentation",
                                 "command": "show_overlay",
                                 "args":
@@ -20,28 +34,15 @@
                                     "text": "wkhtmltopdf: Documentation "
                                 }
                             },
-                            {
-                                "caption": "Changelog",
-                                "command": "wkhtmltopdf_changelog"
-                            },
                             { "caption": "-" },
                             {
                                 "caption": "Issues",
                                 "command": "wkhtmltopdf_issues"
                             },
+                            { "caption": "-" },
                             {
                                 "caption": "Donations",
                                 "command": "wkhtmltopdf_donations"
-                            },
-                            { "caption": "-" },
-                            {
-                                "caption": "Settings",
-                                "command": "edit_settings",
-                                "args":
-                                {
-                                    "base_file": "${packages}/wkhtmltopdf/.sublime/settings/wkhtmltopdf.sublime-settings",
-                                    "default": "{\n//  run \"wkhtmltopdf --extended-help\" for available options\n\t\"wkhtmltopdf.cmd_options\": \"${1:--javascript-delay 10000 --outline-depth 8 --encoding utf-8}\"\n}\n"
-                                }
                             }
                         ]
                     }
