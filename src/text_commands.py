@@ -16,13 +16,7 @@ URL_ISSUES = 'https://github.com/jrappen/sublime-wkhtmltopdf/issues'
 class WkhtmltopdfChangelog(sublime_plugin.TextCommand):
 
     def run(self, edit):
-        v = sublime.active_window().new_file()
-        v.set_name('{}: CHANGELOG'.format(PKG_NAME))
-        v.settings().set('gutter', False)
-        v.insert(edit, 0, sublime.load_resource('Packages/{}/docs/CHANGELOG.md'.format(PKG_NAME)))
-        v.set_syntax_file('Packages/Markdown/Markdown.sublime-syntax')
-        v.set_read_only(True)
-        v.set_scratch(True)
+        webbrowser.open_new_tab('{}/#/CHANGELOG'.format(URL_DOCS))
 
 
 class WkhtmltopdfDocs(sublime_plugin.TextCommand):
