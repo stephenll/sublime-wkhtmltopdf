@@ -1,3 +1,15 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.1.0...1.2.0) (2017-10-19)
+
+### Bug Fixes
+
+* **docsify:** Removed service worker ([76fee4b](https://github.com/jrappen/sublime-wkhtmltopdf/commit/76fee4b))
+* **menu:** Fix how menu entries are sorted ([30050b4](https://github.com/jrappen/sublime-wkhtmltopdf/commit/30050b4))
+
+### Features
+
+* **gitattributes:** Add a \*.gitattributes file ([356927a](https://github.com/jrappen/sublime-wkhtmltopdf/commit/356927a))
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.0.7...1.1.0) (2017-10-15)
 
