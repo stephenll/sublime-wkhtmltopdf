@@ -1,3 +1,12 @@
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.2.0...1.2.1) (2017-10-23)
+
+### Bug Fixes
+
+* **docs:** Fix display of emoji flag chars on Package Control website ([46845b7](https://github.com/jrappen/sublime-wkhtmltopdf/commit/46845b7))
+* **docs:** Move script tags into body ([8ad5be9](https://github.com/jrappen/sublime-wkhtmltopdf/commit/8ad5be9))
+* **Python:** Remove unnecessary import of sublime module ([325f77b](https://github.com/jrappen/sublime-wkhtmltopdf/commit/325f77b))
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.1.0...1.2.0) (2017-10-19)
 
