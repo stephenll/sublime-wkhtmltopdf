@@ -18,9 +18,9 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-root-import": "^4.1.8",
-    "chalk": "^2.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-plugin-root-import": "^5.1.0",
+    "chalk": "^2.2.0",
     "conventional-github-releaser": "^1.1.12",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.8.0",
