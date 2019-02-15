@@ -1,6 +1,6 @@
 {
   "name": "sublime-wkhtmltopdf",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Convert HTML to PDF via the command line in Sublime Text.",
   "author": {
     "name": "Johannes Rappen",
