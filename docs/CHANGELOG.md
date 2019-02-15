@@ -1,3 +1,12 @@
+## [1.3.4](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.3...1.3.4) (2019-02-15)
+
+
+### Bug Fixes
+
+* **docsify-theme:** Fix js URL to enable fetching of map ([f72e76f](https://github.com/jrappen/sublime-wkhtmltopdf/commit/f72e76f))
+
+
+
 ## [1.3.3](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.2...1.3.3) (2019-02-15)
 
 
