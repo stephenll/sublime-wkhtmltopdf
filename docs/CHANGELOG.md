@@ -1,3 +1,12 @@
+## [1.3.2](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.1...1.3.2) (2019-02-15)
+
+
+### Bug Fixes
+
+* **docs:** Fix readability issues by switching docsify theme to custom ([c71f348](https://github.com/jrappen/sublime-wkhtmltopdf/commit/c71f348))
+
+
+
 ## [1.3.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.0...1.3.1) (2019-02-15)
 
 
