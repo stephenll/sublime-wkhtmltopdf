@@ -1,3 +1,13 @@
+## [1.3.3](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.2...1.3.3) (2019-02-15)
+
+
+### Bug Fixes
+
+* **docsify-theme:** Customize theme style to fix search plugin ([ceb4fec](https://github.com/jrappen/sublime-wkhtmltopdf/commit/ceb4fec))
+* **JavaScript helper:** Fix minor issue with release script ([06dede4](https://github.com/jrappen/sublime-wkhtmltopdf/commit/06dede4))
+
+
+
 ## [1.3.2](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.1...1.3.2) (2019-02-15)
 
 
