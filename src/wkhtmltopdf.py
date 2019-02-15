@@ -2,12 +2,14 @@
 # coding: utf-8
 
 
-import os
 import sublime
 import sublime_plugin
+
+import os
 import subprocess
 from threading import Thread
 
+from sublime_lib import NamedSettingsDict, ResourcePath
 from .thread_progress import ThreadProgress
 
 
@@ -23,12 +25,13 @@ def status_msg(msg):
 
 def load_settings(reload=False):
 
-    global PKG_PREF
-
     try:
-        PKG_PREF = sublime.load_settings('{}.sublime-settings'.format(PKG_NAME))
-        PKG_PREF.clear_on_change('reload')
-        PKG_PREF.add_on_change('reload', lambda: load_settings(reload=True))
+        global PKG_PREF
+        PKG_PREF = NamedSettingsDict(PKG_NAME)
+        PKG_PREF.subscribe(
+            load_settings(reload=True),
+            default_value=ResourcePath('Packages/{}/.sublime/settings/{}.sublime-settings'.format(PKG_NAME, PKG_NAME)).read_bytes()
+        )
     except Exception as e:
         print(e)
 
@@ -55,8 +58,8 @@ class Wkhtmltopdf(sublime_plugin.TextCommand):
         thread = Thread(target=self.html_to_pdf, args=(path_html, path_pdf))
         thread.start()
         ThreadProgress(thread,
-                       'Converting HTML to PDF ...',
-                       'Successfully created "{}".'.format(os.path.split(path_pdf)[1]))
+                       '{}: Converting HTML to PDF ...'.format(PKG_NAME),
+                       '{}: Successfully created "{}".'.format(PKG_NAME, os.path.split(path_pdf)[1]))
 
     def html_to_pdf(self, path_html, path_pdf):
         cmd_options = PKG_PREF.get('wkhtmltopdf.cmd_options',

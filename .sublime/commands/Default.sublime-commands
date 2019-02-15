@@ -5,25 +5,43 @@
     },
     {
         "caption": "wkhtmltopdf: Documentation (English)",
-        "command": "wkhtmltopdf_docs",
-        "args": { "language": "en-US" }
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://jrappen.github.io/sublime-wkhtmltopdf"
+        }
     },
     {
-        "caption": "wkhtmltopdf: Documentation (Deutsch)",
-        "command": "wkhtmltopdf_docs",
-        "args": { "language": "de-DE" }
+        "caption": "wkhtmltopdf: Documentation (Deutsch / German)",
+        "command": "open_url",
+        "args":
+        {
+            "language": "https://jrappen.github.io/sublime-wkhtmltopdf/#/de/"
+        }
     },
     {
         "caption": "wkhtmltopdf: Changelog",
-        "command": "wkhtmltopdf_changelog"
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://jrappen.github.io/sublime-wkhtmltopdf/#/CHANGELOG"
+        }
     },
     {
         "caption": "wkhtmltopdf: Issues",
-        "command": "wkhtmltopdf_issues"
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://github.com/jrappen/sublime-wkhtmltopdf/issues"
+        }
     },
     {
         "caption": "wkhtmltopdf: Donations",
-        "command": "wkhtmltopdf_donations"
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://www.paypal.me/jrappen"
+        }
     },
     {
         "caption": "Preferences: wkhtmltopdf: Settings",
