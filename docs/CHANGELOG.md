@@ -1,3 +1,20 @@
+# [1.3.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.2.1...1.3.0) (2019-02-15)
+
+
+### Bug Fixes
+
+* **docs:** Fix minor issues while simplifying docs URLs ([ccdb26a](https://github.com/jrappen/sublime-wkhtmltopdf/commit/ccdb26a))
+* **JavaScript helper:** Add release script reference to package.json ([1676b25](https://github.com/jrappen/sublime-wkhtmltopdf/commit/1676b25))
+* **Sublime Text:** Remove old messages for Package Control ([c163584](https://github.com/jrappen/sublime-wkhtmltopdf/commit/c163584))
+
+
+### Features
+
+* **JavaScript helpers:** Move from gulp tasks to plain JavaScript via npm ([355c510](https://github.com/jrappen/sublime-wkhtmltopdf/commit/355c510))
+* **Sublime Text:** Support ST3189+ while making use of sublime_lib ([c8f3228](https://github.com/jrappen/sublime-wkhtmltopdf/commit/c8f3228))
+
+
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.2.0...1.2.1) (2017-10-23)
 
