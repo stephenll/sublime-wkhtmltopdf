@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.0...1.3.1) (2019-02-15)
+
+
+### Bug Fixes
+
+* **docs:** Fix badges in English README ([7d142bf](https://github.com/jrappen/sublime-wkhtmltopdf/commit/7d142bf))
+
+
+
 # [1.3.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.2.1...1.3.0) (2019-02-15)
 
 
