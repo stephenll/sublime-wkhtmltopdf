@@ -1,3 +1,13 @@
+---
+name: Bug report
+about: Create a report to help us improve
+labels:
+  - 'type: bug'
+  - 'info: contribution welcome'
+---
+
+# Bug report
+
 ## Short and descriptive title
 
 Any other information you want to share that is relevant to the issue being reported.
@@ -27,12 +37,12 @@ Description ...
 wkhtmltopdf:
     version: 0.12.4
 
-wkhtmltopdf package:
-    version: ?
-
 Sublime Text:
-    channel: stable
-    version: 3143 (portable)
-    platform: Windows
-    architecture: x64
+  - channel: stable
+  - version: 3189 (portable)
+  - platform: Windows
+  - architecture: x64
+  - packages:
+      - Package Control: 3.3.0
+      - wkhtmltopdf: 1.3.0
 ```
