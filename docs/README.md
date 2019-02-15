@@ -39,6 +39,8 @@ Depending upon your settings this takes a while, see status bar for feedback.
 Run `wkhtmltopdf --extended-help` via the command line to check for available options. The default is:
 
 ```json
+//  Packages/wkhtmltopdf/.sublime/settings/wkhtmltopdf.sublime-settings
+//
 {
     "wkhtmltopdf.cmd_options": "--javascript-delay 10000 --outline-depth 8 --encoding utf-8"
 }

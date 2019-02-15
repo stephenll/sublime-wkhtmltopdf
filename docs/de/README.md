@@ -1,7 +1,7 @@
 [![Lizenz](https://img.shields.io/github/license/jrappen/sublime-wkhtmltopdf.svg?style=flat-square)](https://github.com/jrappen/sublime-wkhtmltopdf/blob/master/LICENSE)
 [![Sublime Text unterstützte Versionen](https://img.shields.io/badge/Sublime%20Text-Build%203124+-orange.svg?style=flat-square)](https://www.sublimetext.com)
 [![Downloads Package Control](https://img.shields.io/packagecontrol/dt/wkhtmltopdf.svg?style=flat-square)](https://packagecontrol.io/packages/wkhtmltopdf)
-[![Aktuelle Version](https://img.shields.io/github/release/jrappen/sublime-wkhtmltopdf.svg?style=flat-square)](https://github.com/jrappen/sublime-wkhtmltopdf/releases/latest)
+[![Aktueller Tag](https://img.shields.io/github/tag/jrappen/sublime-wkhtmltopdf.svg?style=flat-square)](https://github.com/jrappen/sublime-wkhtmltopdf/tags)
 [![Spende über PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square)](https://www.paypal.me/jrappen)
 
 ## Voraussetzungen
@@ -37,6 +37,8 @@ auswählst. Je nach deinen Einstellungen wird dies etwas dauern, für Feedback s
 Gebe `wkhtmltopdf --extended-help` in die Kommandozeile ein, um nach verfügbaren Optionen zu suchen. Als Standard eingestellt ist hier:
 
 ```json
+//  Packages/wkhtmltopdf/.sublime/settings/wkhtmltopdf.sublime-settings
+//
 {
     "wkhtmltopdf.cmd_options": "--javascript-delay 10000 --outline-depth 8 --encoding utf-8"
 }
