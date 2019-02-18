@@ -27,9 +27,9 @@ def load_settings(reload=False):
 
     try:
         global PKG_PREF
-        PKG_PREF = NamedSettingsDict(PKG_NAME)
+        PKG_PREF = sublime_lib.NamedSettingsDict(PKG_NAME)
         PKG_PREF.subscribe(
-            ResourcePath(
+            sublime_lib.ResourcePath(
                 'Packages/{}/.sublime/settings/{}.sublime-settings'
                 .format(PKG_NAME, PKG_NAME)
             ).read_bytes(),
