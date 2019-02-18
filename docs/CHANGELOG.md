@@ -1,3 +1,12 @@
+## [1.3.6](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.5...1.3.6) (2019-02-18)
+
+
+### Bug Fixes
+
+* **sublime_lib:** Fix subscription to settings change ([534e683](https://github.com/jrappen/sublime-wkhtmltopdf/commit/534e683))
+
+
+
 ## [1.3.5](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.4...1.3.5) (2019-02-18)
 
 
