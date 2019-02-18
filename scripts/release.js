@@ -57,8 +57,6 @@ const release = async() => {
   // assuming conventional-changelog-cli is installed globally via npm or yarn
   //
 
-  // TODO: update changelog, do not replace
-
   console.log('[./scripts/release.js] generating CHANGELOG.')
   await execa('conventional-changelog', ['-p', 'angular', '-i', 'docs/CHANGELOG.md', '-s'], { stdio: 'inherit' })
 
