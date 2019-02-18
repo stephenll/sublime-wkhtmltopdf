@@ -9,7 +9,6 @@ import os
 import subprocess
 from threading import Thread
 
-import sublime_lib
 from .thread_progress import ThreadProgress
 
 
@@ -27,14 +26,9 @@ def load_settings(reload=False):
 
     try:
         global PKG_PREF
-        PKG_PREF = sublime_lib.NamedSettingsDict(PKG_NAME)
-        PKG_PREF.subscribe(
-            sublime_lib.ResourcePath(
-                'Packages/{}/.sublime/settings/{}.sublime-settings'
-                .format(PKG_NAME, PKG_NAME)
-            ).read_bytes(),
-            load_settings(reload=True)
-        )
+        PKG_PREF = sublime.load_settings('{}.sublime-settings'.format(PKG_NAME))
+        PKG_PREF.clear_on_change('reload')
+        PKG_PREF.add_on_change('reload', lambda: load_settings(reload=True))
     except Exception as e:
         print(e)
 
