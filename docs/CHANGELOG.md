@@ -1,3 +1,12 @@
+## [1.3.5](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.4...1.3.5) (2019-02-18)
+
+
+### Bug Fixes
+
+* **docsify:** Do not use broken custom theme as search doesn't work ([9fcc5b1](https://github.com/jrappen/sublime-wkhtmltopdf/commit/9fcc5b1))
+
+
+
 ## [1.3.4](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.3...1.3.4) (2019-02-15)
 
 
