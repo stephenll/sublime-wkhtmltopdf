@@ -30,7 +30,10 @@ def load_settings(reload=False):
         PKG_PREF = NamedSettingsDict(PKG_NAME)
         PKG_PREF.subscribe(
             load_settings(reload=True),
-            default_value=ResourcePath('Packages/{}/.sublime/settings/{}.sublime-settings'.format(PKG_NAME, PKG_NAME)).read_bytes()
+            default_value=ResourcePath(
+                'Packages/{}/.sublime/settings/{}.sublime-settings'
+                .format(PKG_NAME, PKG_NAME)
+            ).read_bytes()
         )
     except Exception as e:
         print(e)
