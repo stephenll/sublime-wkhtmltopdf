@@ -1,3 +1,7 @@
+## [1.3.9](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.8...1.3.9) (2019-02-18)
+
+
+
 ## [1.3.8](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.7...1.3.8) (2019-02-18)
 
 
