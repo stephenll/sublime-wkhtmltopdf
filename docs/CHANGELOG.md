@@ -1,3 +1,13 @@
+## [1.3.7](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.6...1.3.7) (2019-02-18)
+
+
+### Bug Fixes
+
+* **sublime dependency:** Fix import of sublime_lib ([0ef75c7](https://github.com/jrappen/sublime-wkhtmltopdf/commit/0ef75c7))
+* **sublime_lib:** Explicit use of sublime_lib ([ca9fdc8](https://github.com/jrappen/sublime-wkhtmltopdf/commit/ca9fdc8))
+
+
+
 ## [1.3.6](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.5...1.3.6) (2019-02-18)
 
 
