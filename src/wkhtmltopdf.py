@@ -9,7 +9,7 @@ import os
 import subprocess
 from threading import Thread
 
-from sublime_lib import NamedSettingsDict, ResourcePath
+import sublime_lib
 from .thread_progress import ThreadProgress
 
 
