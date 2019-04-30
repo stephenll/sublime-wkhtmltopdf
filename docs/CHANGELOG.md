@@ -1,3 +1,12 @@
+## [1.3.10](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.9...1.3.10) (2019-04-30)
+
+
+### Bug Fixes
+
+* **docsify:** force 'coverpage: false' for docsify ([13e5474](https://github.com/jrappen/sublime-wkhtmltopdf/commit/13e5474))
+
+
+
 ## [1.3.9](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.8...1.3.9) (2019-02-18)
 
 
