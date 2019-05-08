@@ -14,8 +14,8 @@
   window.$docsify = {
     auto2top: true,
     autoHeader: true,
-    executeScript: true,
     coverpage: false,
+    executeScript: true,
     formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
     loadNavbar: true,
     loadSidebar: true,
@@ -47,6 +47,10 @@
         })
       }
     ]
+  }
+
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
   }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
