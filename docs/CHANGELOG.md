@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.10...1.4.0) (2019-05-08)
+
+
+### Bug Fixes
+
+* Fix inconsistent badge styling in docs ([0c2e7fd](https://github.com/jrappen/sublime-wkhtmltopdf/commit/0c2e7fd))
+
+
+
 ## [1.3.10](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.9...1.3.10) (2019-04-30)
 
 ### Bug Fixes
