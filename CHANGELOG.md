@@ -1,11 +1,8 @@
 ## [1.4.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.4.0...1.4.1) (2019-05-14)
 
-
 ### Bug Fixes
 
 * **docs:** Fix docs setup for vuepress ([f6e01bb](https://github.com/jrappen/sublime-wkhtmltopdf/commit/f6e01bb))
-
-
 
 # [1.4.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.3.10...1.4.0) (2019-05-08)
 
