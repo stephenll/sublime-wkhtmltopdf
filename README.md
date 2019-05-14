@@ -12,4 +12,4 @@
 | Language         | Link                                                  |
 |------------------|-------------------------------------------------------|
 | English          | <https://jrappen.github.io/sublime-wkhtmltopdf>       |
-| Deutsch (German) | <https://jrappen.github.io/sublime-wkhtmltopdf/#/de/> |
+| Deutsch (German) | <https://jrappen.github.io/sublime-wkhtmltopdf/de>    |

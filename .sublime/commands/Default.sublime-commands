@@ -16,7 +16,7 @@
         "command": "open_url",
         "args":
         {
-            "language": "https://jrappen.github.io/sublime-wkhtmltopdf/#/de/"
+            "language": "https://jrappen.github.io/sublime-wkhtmltopdf/de"
         }
     },
     {
@@ -24,7 +24,7 @@
         "command": "open_url",
         "args":
         {
-            "url": "https://jrappen.github.io/sublime-wkhtmltopdf/#/CHANGELOG"
+            "url": "https://github.com/jrappen/sublime-wkhtmltopdf/blob/master/CHANGELOG.md"
         }
     },
     {

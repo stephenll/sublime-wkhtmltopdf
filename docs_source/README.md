@@ -1,3 +1,7 @@
+---
+footer: ISC Licensed | Copyright © 2017 Johannes Rappen
+---
+
 <div id="readme"></div>
 
 [![License](https://img.shields.io/github/license/jrappen/sublime-wkhtmltopdf.svg?style=flat-square)](https://github.com/jrappen/sublime-wkhtmltopdf/blob/master/LICENSE)
