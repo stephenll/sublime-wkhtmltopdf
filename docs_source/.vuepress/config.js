@@ -7,12 +7,12 @@ module.exports = ctx => ({
     '/': {
       lang: 'en-US',
       title: 'wkhtmltopdf',
-      description: ''
+      description: 'Convert HTML to PDF via wkhtmltopdf in Sublime Text.'
     },
     '/de/': {
       lang: 'de-DE',
       title: 'wkhtmltopdf',
-      description: ''
+      description: 'Konvertiere HTML in PDF mit wkhtmltopdf in Sublime Text.'
     }
   },
   themeConfig: {
@@ -24,13 +24,17 @@ module.exports = ctx => ({
         label: 'English',
         selectText: '🌐 Languages',
         editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated'
+        lastUpdated: 'Last Updated',
+        sidebar: 'auto',
+        sidebarDepth: 2
       },
       '/de/': {
         label: 'Deutsch',
         selectText: '🌐 Sprachen',
         editLinkText: 'Ändere diese Seite auf GitHub',
-        lastUpdated: 'Zuletzt aktualisiert'
+        lastUpdated: 'Zuletzt aktualisiert',
+        sidebar: 'auto',
+        sidebarDepth: 2
       }
     }
   },
