@@ -1,11 +1,8 @@
 ## [1.4.3](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.4.2...1.4.3) (2019-05-28)
 
-
 ### Bug Fixes
 
 * **docs:** Update Code of Conduct to v1.4.1 ([46829e8](https://github.com/jrappen/sublime-wkhtmltopdf/commit/46829e8))
-
-
 
 ## [1.4.2](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.4.1...1.4.2) (2019-05-16)
 
