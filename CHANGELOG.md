@@ -1,6 +1,8 @@
 ## [1.4.2](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.4.1...1.4.2) (2019-05-16)
 
+### Bug Fixes
 
+* **docs:** Fix display of docs sidebar ([2fd3430](https://github.com/jrappen/sublime-wkhtmltopdf/commit/2fd3430))
 
 ## [1.4.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.4.0...1.4.1) (2019-05-14)
 
