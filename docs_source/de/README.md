@@ -1,9 +1,9 @@
 ---
-footer: ISC Licensed | Copyright © 2017 Johannes Rappen
+footer: ISC Lizensiert | Copyright © 2017-2019 Johannes Rappen
 ---
 
 [![Lizenz](https://img.shields.io/github/license/jrappen/sublime-wkhtmltopdf.svg?style=flat-square)](https://github.com/jrappen/sublime-wkhtmltopdf/blob/master/LICENSE)
-[![Sublime Text unterstützte Versionen](https://img.shields.io/badge/Sublime%20Text-Build%203124+-orange.svg?style=flat-square)](https://www.sublimetext.com)
+[![Sublime Text unterstützte Versionen](https://img.shields.io/badge/Sublime%20Text-Build%204050+-orange.svg?style=flat-square)](https://www.sublimetext.com)
 [![Downloads Package Control](https://img.shields.io/packagecontrol/dt/wkhtmltopdf.svg?style=flat-square)](https://packagecontrol.io/packages/wkhtmltopdf)
 [![GitHub letzter commit](https://img.shields.io/github/last-commit/jrappen/sublime-wkhtmltopdf.svg?style=flat-square)](https://github.com/jrappen/sublime-wkhtmltopdf/commits/master)
 [![Aktueller Tag](https://img.shields.io/github/tag/jrappen/sublime-wkhtmltopdf.svg?style=flat-square)](https://github.com/jrappen/sublime-wkhtmltopdf/tags)
@@ -11,18 +11,18 @@ footer: ISC Licensed | Copyright © 2017 Johannes Rappen
 
 <div id="readme"></div>
 
-# [`wkhtmltopdf`](http://wkhtmltopdf.org/downloads.html) Erweiterung für [Sublime Text 3](https://www.sublimetext.com/3)
+# [`wkhtmltopdf`](http://wkhtmltopdf.org/downloads.html) Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
 ## Voraussetzungen
 
-* `wkhtmltopdf` ist als Erweiterung für die **neuste** Sublime Text Version gedacht und erfordert im Moment **Build 3124** oder neuer.
-  * [ST3 (stable)](https://www.sublimetext.com/3)
-  * [ST3 (dev)](https://www.sublimetext.com/3dev)
+* `wkhtmltopdf` ist als Erweiterung für die **neuste Version** von [Sublime Text](https://www.sublimetext.com) gedacht und erfordert im Moment `Build 4050` oder neuer.
+  * (stable channel)
+  * (dev)
 * [`wkhtmltopdf`](http://wkhtmltopdf.org/downloads.html) muss in deinem `PATH` sein!
 
 ## Installation
 
-Die Verwendung von **Package Control** ist nicht zwingend vorausgesetzt, aber durchaus empfohlen, da es deine Erweiterungen (mit ihren Abhängigkeiten) aktuell hält.
+Die Verwendung von **Package Control** wird nicht zwingend vorausgesetzt, aber durchaus empfohlen, da es deine Erweiterungen (mit ihren Abhängigkeiten) aktuell hält.
 
 ### Installation über Package Control
 

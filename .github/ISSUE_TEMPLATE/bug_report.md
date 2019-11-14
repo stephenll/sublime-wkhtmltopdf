@@ -35,14 +35,14 @@ Description ...
 
 ```text
 wkhtmltopdf:
-    version: 0.12.4
+    version: 0.12.5
 
 Sublime Text:
   - channel: stable
-  - version: 3207 (portable)
+  - version: 4050 (portable)
   - platform: Windows
   - architecture: x64
   - packages:
       - Package Control: 3.3.0
-      - wkhtmltopdf: 1.3.0
+      - wkhtmltopdf: 2.0.0
 ```
