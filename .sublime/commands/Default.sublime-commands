@@ -12,7 +12,7 @@
         }
     },
     {
-        "caption": "wkhtmltopdf: Documentation (Deutsch / German)",
+        "caption": "wkhtmltopdf: Documentation (German / Deutsch)",
         "command": "open_url",
         "args":
         {

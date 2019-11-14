@@ -1,4 +1,8 @@
-## Installed the `wkhtmltopdf` plug-in for Sublime Text
+Thank you for choosing `wkhtmltopdf`
+------------------------------------
+
+Documentation
+-------------
 
 Please read the docs, which you can find:
 
@@ -8,4 +12,4 @@ Please read the docs, which you can find:
 and which are currently available in:
 
 * English
-* Deutsch (German)
+* German (Deutsch)

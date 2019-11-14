@@ -9,6 +9,4 @@ from .wkhtmltopdf import *
 
 
 def plugin_loaded():
-    VERSION = int(sublime.version())
-    if 3189 <= VERSION:
-        wkhtmltopdf.plugin_loaded()
+    wkhtmltopdf.plugin_loaded()
