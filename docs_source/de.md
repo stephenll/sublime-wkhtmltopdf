@@ -32,7 +32,7 @@ auswählst. Je nach deinen Einstellungen wird dies etwas dauern, für Feedback s
 
 Gebe `wkhtmltopdf --extended-help` in die Kommandozeile ein, um nach verfügbaren Optionen zu suchen. Als Standard eingestellt ist hier:
 
-```json
+```js
 //  Packages/wkhtmltopdf/.sublime/settings/wkhtmltopdf.sublime-settings
 
 {
