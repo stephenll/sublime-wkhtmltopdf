@@ -5,18 +5,18 @@
     },
     {
         "caption": "wkhtmltopdf: Documentation (English)",
-        "command": "open_url",
+        "command": "wkhtmltopdf_open_pdf",
         "args":
         {
-            "url": "https://jrappen.github.io/sublime-wkhtmltopdf"
+            "resource_path": "docs/wkhtmltopdf.en.pdf"
         }
     },
     {
         "caption": "wkhtmltopdf: Documentation (German / Deutsch)",
-        "command": "open_url",
+        "command": "wkhtmltopdf_open_pdf",
         "args":
         {
-            "language": "https://jrappen.github.io/sublime-wkhtmltopdf/de"
+            "resource_path": "docs/wkhtmltopdf.de.pdf"
         }
     },
     {
