@@ -1,3 +1,20 @@
+# [2.2.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.1.1...2.2.0) (2020-02-06)
+
+
+### Bug Fixes
+
+* **docs:** Fix indentation for displaying docs ([cd78ba8](https://github.com/jrappen/sublime-wkhtmltopdf/commit/cd78ba89386122836dc33299f4e4932fa6a40e90))
+* **docs:** Update docs ([c4c662e](https://github.com/jrappen/sublime-wkhtmltopdf/commit/c4c662e195963df5eeed0dddae2ef60aa23279d1))
+* **docs:** Update package version in template ([dacf6e9](https://github.com/jrappen/sublime-wkhtmltopdf/commit/dacf6e9906765f044c859f4a5dda5c4ffbd01144))
+* **node:** Update engines and devDependencies ([5c1f2d3](https://github.com/jrappen/sublime-wkhtmltopdf/commit/5c1f2d36dbe3839a1e784218332c261476da3f14))
+
+
+### Features
+
+* **docs:** Switch to new html sheets (ST4065+) ([6ad4dc2](https://github.com/jrappen/sublime-wkhtmltopdf/commit/6ad4dc230008015fee5b0d83c8db2e4ff19a9a9a))
+
+
+
 ## [2.1.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.1.0...2.1.1) (2019-12-05)
 
 # [2.1.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.0.0...2.1.0) (2019-12-05)
