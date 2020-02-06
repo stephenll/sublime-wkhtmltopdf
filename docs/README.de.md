@@ -2,7 +2,7 @@
 
 ## Voraussetzungen
 
-* `wkhtmltopdf` ist als Erweiterung für die **neuste Version** von [Sublime Text](https://www.sublimetext.com) gedacht und erfordert im Moment `Build 4050` oder neuer.
+* `wkhtmltopdf` ist als Erweiterung für die **neuste Version** von [Sublime Text](https://www.sublimetext.com) gedacht und erfordert im Moment **`Build 4065`** oder neuer.
   * (stable channel)
   * (dev)
 * [`wkhtmltopdf`](http://wkhtmltopdf.org/downloads.html) muss in deinem `PATH` sein!

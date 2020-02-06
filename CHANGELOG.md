@@ -1,29 +1,20 @@
 ## [2.1.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.1.0...2.1.1) (2019-12-05)
 
-
-
 # [2.1.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.0.0...2.1.0) (2019-12-05)
-
 
 ### Features
 
 * **docs:** Ship offline docs with crowbook ([b15cc9e](https://github.com/jrappen/sublime-wkhtmltopdf/commit/b15cc9e8ca0ed1cfa0dd2f296b9cdfc122d382f9))
 
-
-
 # [2.0.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.4.3...2.0.0) (2019-11-14)
-
 
 ### Features
 
 * **core:** Update for ST4 ([69d6f0b](https://github.com/jrappen/sublime-wkhtmltopdf/commit/69d6f0bc939084e9fb7d4f3ce2f81ac9e625337d))
 
-
 ### BREAKING CHANGES
 
 * **core:** Requires Sublime Text Build 4050 or later.
-
-
 
 ## [1.4.3](https://github.com/jrappen/sublime-wkhtmltopdf/compare/1.4.2...1.4.3) (2019-05-28)
 

@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* This plug-in targets and is tested against the **latest Build** of [Sublime Text](https://www.sublimetext.com), currently requiring **`Build 4050`** or later.
+* This plug-in targets and is tested against the **latest Build** of [Sublime Text](https://www.sublimetext.com), currently requiring **`Build 4065`** or later.
   * (stable channel)
   * (dev channel)
 * [`wkhtmltopdf`](http://wkhtmltopdf.org/downloads.html) must be in your `PATH`!
