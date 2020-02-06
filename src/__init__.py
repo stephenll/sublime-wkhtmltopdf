@@ -5,7 +5,7 @@
 import sublime
 
 from .thread_progress import *
-from .window_commands import *
+from .text_commands import *
 from .wkhtmltopdf import *
 
 
