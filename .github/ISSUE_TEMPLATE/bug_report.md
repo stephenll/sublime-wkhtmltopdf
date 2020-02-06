@@ -49,7 +49,7 @@ Sublime Text:
 
 Package Control:
     Package Control: 3.3.0
-    wkhtmltopdf: 2.0.0
+    wkhtmltopdf: 2.2.0
 
 wkhtmltopdf:
     version: 0.12.5
