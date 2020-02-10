@@ -1,3 +1,12 @@
+## [2.2.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.0...2.2.1) (2020-02-10)
+
+
+### Bug Fixes
+
+* **python:** Use window commands not text commands ([35cf0cd](https://github.com/jrappen/sublime-wkhtmltopdf/commit/35cf0cd343b3f9e42a771882eb824a73988ce462))
+
+
+
 # [2.2.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.1.1...2.2.0) (2020-02-06)
 
 
