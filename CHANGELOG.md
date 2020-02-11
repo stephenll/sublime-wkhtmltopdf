@@ -1,3 +1,12 @@
+## [2.2.2](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.1...2.2.2) (2020-02-11)
+
+
+### Bug Fixes
+
+* **python:** Fix wkthmltopdf_open_docs ([d4b3876](https://github.com/jrappen/sublime-wkhtmltopdf/commit/d4b38762373ffc42a48f6ffebd740580c3716a86))
+
+
+
 ## [2.2.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.0...2.2.1) (2020-02-10)
 
 ### Bug Fixes
