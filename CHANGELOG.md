@@ -1,3 +1,12 @@
+## [2.2.3](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.2...2.2.3) (2020-02-14)
+
+
+### Bug Fixes
+
+* **docs:** Use `jsonc` for codeblocks ([5f2e6ae](https://github.com/jrappen/sublime-wkhtmltopdf/commit/5f2e6aeb3528d0089bcef75f9b2d00978d201b27))
+
+
+
 ## [2.2.2](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.1...2.2.2) (2020-02-11)
 
 ### Bug Fixes
