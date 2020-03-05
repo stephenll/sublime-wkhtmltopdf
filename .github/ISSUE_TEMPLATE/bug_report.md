@@ -35,21 +35,23 @@ Description ...
 
 ```yaml
 Sublime Text:
-  build: 4065
+  build: 4067
   channel: dev
     portable: false
   platform: osx x64
-    version: macOS Catalina 10.15.2 (19C57)
+
+System:
   hardware: MBP 15" 2018, i9 2.9GHz, 32GB, 1TB, Radeon Pro 560X
-  open_gl:
-    GL API Version: 4.1 INTEL-14.3.9
-    GLSL Version: 4.10
-    Vendor: Intel Inc.
-    Renderer: Intel(R) UHD Graphics 630
+  software: macOS Catalina 10.15.3 (19D76)
+    open_gl:
+      gl_api_version: 4.1 INTEL-14.4.23
+      glsl_version: 4.10
+      vendor: Intel Inc.
+      renderer: Intel(R) UHD Graphics 630
 
 Package Control:
     Package Control: 3.3.0
-    wkhtmltopdf: 2.2.0
+    wkhtmltopdf: 2.2.4
 
 wkhtmltopdf:
     version: 0.12.5
