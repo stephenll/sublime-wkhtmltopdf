@@ -1,11 +1,8 @@
 ## [2.2.4](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.3...2.2.4) (2020-03-05)
 
-
 ### Bug Fixes
 
 * **node:** Bump engines and devDependencies ([3530843](https://github.com/jrappen/sublime-wkhtmltopdf/commit/35308431c52637180d50d82d8ac82cd51606d8cf))
-
-
 
 ## [2.2.3](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.0...2.2.3) (2020-02-14)
 
