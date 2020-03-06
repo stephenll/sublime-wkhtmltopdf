@@ -7,8 +7,8 @@ labels:
 ---
 
 <!--
-  Before creating an issue please make sure you are using the latest version
-  of wkhtmltopdf.
+    Before creating an issue please make sure you are using the latest version
+    of wkhtmltopdf.
 -->
 
 # Feature request
