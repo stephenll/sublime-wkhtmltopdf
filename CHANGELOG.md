@@ -1,3 +1,17 @@
+# [2.3.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.4...2.3.0) (2020-03-09)
+
+
+### Bug Fixes
+
+* **docs:** Use 4 spaces indentation for list items ([c6d7a5e](https://github.com/jrappen/sublime-wkhtmltopdf/commit/c6d7a5e824c26b451aa0abf1c08e698ac2f4d009))
+
+
+### Features
+
+* **Package Control:** Add PkgCtrl channel file ([1b69103](https://github.com/jrappen/sublime-wkhtmltopdf/commit/1b69103e4479e65a800bef6a186676f3b4e0392d))
+
+
+
 ## [2.2.4](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.3...2.2.4) (2020-03-05)
 
 ### Bug Fixes
