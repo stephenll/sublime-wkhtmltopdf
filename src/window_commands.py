@@ -9,6 +9,7 @@ import sublime_plugin
 PKG_NAME = __package__.split('.')[0]
 
 
+# TODO: add type hints
 class WkhtmltopdfOpenDocs(sublime_plugin.WindowCommand):
 
     def run(self, resource_path='docs/README.en.md'):
@@ -18,14 +19,16 @@ class WkhtmltopdfOpenDocs(sublime_plugin.WindowCommand):
             import mdpopups
             md_preview = mdpopups.md2html(
                 view=v,
-                markup=sublime.load_resource(f'Packages/{PKG_NAME}/{resource_path}'),
+                markup=sublime.load_resource('Packages/{}/{}'.format(PKG_NAME, resource_path)),
+                # TODO: markup=sublime.load_resource(f'Packages/{PKG_NAME}/{resource_path}'),
                 template_vars=None,
                 template_env_options=None,
                 nl2br=True,
                 allow_code_wrap=False
             )
             preview_sheet = w.new_html_sheet(
-                name=f'{PKG_NAME}/{resource_path}',
+                name='{}/{}'.format(PKG_NAME, resource_path),
+                # TODO: name=f'{PKG_NAME}/{resource_path}',
                 contents=md_preview,
                 cmd='open_url',
                 args=None,
@@ -33,7 +36,8 @@ class WkhtmltopdfOpenDocs(sublime_plugin.WindowCommand):
                 group=-1
             )
         except Exception as e:
-            print(f'wkhtmltopdf: Exception: {e}')
+            print('wkhtmltopdf: Exception: {}'.format(e))
+            # TODO: print(f'wkhtmltopdf: Exception: {e}')
 
     # def is_enabled(self): return bool
 

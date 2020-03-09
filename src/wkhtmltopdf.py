@@ -20,7 +20,8 @@ DEFAULT_OPTIONS = '--javascript-delay 10000 --outline-depth 8 --encoding utf-8'
 # TODO: type hints
 def status_msg(msg):
 
-    sublime.status_message(f'{PKG_NAME}: {msg}')
+    sublime.status_message('{}: {}'.format(PKG_NAME, msg))
+    # TODO: sublime.status_message(f'{PKG_NAME}: {msg}')
 
 
 # TODO: type hints
@@ -28,11 +29,13 @@ def load_settings(reload=False):
 
     try:
         global PKG_PREF
-        PKG_PREF = sublime.load_settings(f'{PKG_NAME}.sublime-settings')
+        PKG_PREF = sublime.load_settings('{}.sublime-settings'.format(PKG_NAME))
+        # TODO: PKG_PREF = sublime.load_settings(f'{PKG_NAME}.sublime-settings')
         PKG_PREF.clear_on_change('reload')
         PKG_PREF.add_on_change('reload', lambda: load_settings(reload=True))
     except Exception as e:
-        print(e)
+        print('wkhtmltopdf: Error: {}'.format(e))
+        # TODO: print(f'wkhtmltopdf: Error: {e}')
 
     if reload:
         status_msg('Reloaded settings on change.')
@@ -43,6 +46,7 @@ def plugin_loaded():
     load_settings()
 
 
+# TODO: type hints
 class Wkhtmltopdf(sublime_plugin.TextCommand):
 
     def run(self, edit):
@@ -57,15 +61,16 @@ class Wkhtmltopdf(sublime_plugin.TextCommand):
         thread = Thread(target=self.html_to_pdf, args=(path_html, path_pdf))
         thread.start()
         ThreadProgress(thread,
-                       f'{PKG_NAME}: Converting HTML to PDF ...',
+                       '{}: Converting HTML to PDF ...'.format(PKG_NAME),
+                       # TODO: f'{PKG_NAME}: Converting HTML to PDF ...',
                        '{}: Successfully created "{}".'.format(PKG_NAME, os.path.split(path_pdf)[1]))
 
     # TODO: type hints
     def html_to_pdf(self, path_html, path_pdf):
         cmd_options = PKG_PREF.get('wkhtmltopdf.cmd_options',
                                    DEFAULT_OPTIONS)
-        subprocess.call(f'wkhtmltopdf {cmd_options} {path_html} {path_pdf}',
-                        shell=True)
+        subprocess.call('wkhtmltopdf {} {} {}'.format(cmd_options, path_html, path_pdf), shell=True)
+        # TODO: subprocess.call(f'wkhtmltopdf {cmd_options} {path_html} {path_pdf}', shell=True)
 
     def is_visible(self):
         return self.view.settings().get('syntax').startswith('Packages/HTML/')
