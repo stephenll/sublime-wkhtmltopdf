@@ -1,27 +1,13 @@
-# [2.3.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.4...2.3.0) (2020-03-09)
-
-
-### Bug Fixes
-
-* **docs:** Use 4 spaces indentation for list items ([c6d7a5e](https://github.com/jrappen/sublime-wkhtmltopdf/commit/c6d7a5e824c26b451aa0abf1c08e698ac2f4d009))
-
+# [2.3.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.0...2.3.0) (2020-03-09)
 
 ### Features
 
 * **Package Control:** Add PkgCtrl channel file ([1b69103](https://github.com/jrappen/sublime-wkhtmltopdf/commit/1b69103e4479e65a800bef6a186676f3b4e0392d))
 
-
-
-## [2.2.4](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.3...2.2.4) (2020-03-05)
-
 ### Bug Fixes
 
+* **docs:** Use 4 spaces indentation for list items ([c6d7a5e](https://github.com/jrappen/sublime-wkhtmltopdf/commit/c6d7a5e824c26b451aa0abf1c08e698ac2f4d009))
 * **node:** Bump engines and devDependencies ([3530843](https://github.com/jrappen/sublime-wkhtmltopdf/commit/35308431c52637180d50d82d8ac82cd51606d8cf))
-
-## [2.2.3](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.0...2.2.3) (2020-02-14)
-
-### Bug Fixes
-
 * **docs:** Use `jsonc` for codeblocks ([5f2e6ae](https://github.com/jrappen/sublime-wkhtmltopdf/commit/5f2e6aeb3528d0089bcef75f9b2d00978d201b27))
 * **python:** Fix wkthmltopdf_open_docs ([d4b3876](https://github.com/jrappen/sublime-wkhtmltopdf/commit/d4b38762373ffc42a48f6ffebd740580c3716a86))
 * **python:** Use window commands not text commands ([35cf0cd](https://github.com/jrappen/sublime-wkhtmltopdf/commit/35cf0cd343b3f9e42a771882eb824a73988ce462))
