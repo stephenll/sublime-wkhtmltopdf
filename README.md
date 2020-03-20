@@ -7,15 +7,30 @@
 
 # [`wkhtmltopdf`](http://wkhtmltopdf.org/downloads.html) plug-in for [Sublime Text](https://www.sublimetext.com)
 
+> Convert HTML to PDF via `wkhtmltopdf` in Sublime Text.
+
+* [Documentation](#documentation)
+    * [English](#english)
+    * [German (Deutsch)](#german-deutsch)
+* [Requirements](#requirements)
+* [Installation](#installation)
+    * [Installation via Package Control](#installation-via-package-control)
+* [Usage](#usage)
+    * [Settings](#settings)
+* [Source Code](#source-code)
+    * [License](#license)
+    * [Issues](#issues)
+* [Donations](#donations)
+
 ## Documentation
 
-### English 🇺🇸🇬🇧🇨🇦🇦🇺🇳🇿
+### English
 
 > Plugin documentation is available in English via the menu or command palette.
 
 [`jrappen/sublime-wkhtmltopdf:docs/README.en.md@master`](https://github.com/jrappen/sublime-wkhtmltopdf/blob/master/docs/README.en.md)
 
-### German (Deutsch) 🇩🇪🇦🇹🇨🇭
+### German (Deutsch)
 
 > Eine plug-in Dokumentation ist über das Menü oder die Kurzbefehleingabe (command palette) verfügbar.
 

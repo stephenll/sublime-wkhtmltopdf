@@ -1,5 +1,17 @@
 # [`wkhtmltopdf`](http://wkhtmltopdf.org/downloads.html) Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
+> Konvertiere HTML in PDF mit `wkhtmltopdf` in Sublime Text.
+
+* [Voraussetzungen](#voraussetzungen)
+* [Installation](#installation)
+    * [Installation über Package Control](#installation-über-package-control)
+* [Verwendung](#verwendung)
+    * [Einstellungen](#einstellungen)
+* [Quellcode](#quellcode)
+    * [Lizenz](#lizenz)
+    * [Feedback](#feedback)
+* [Spenden](#spenden)
+
 ## Voraussetzungen
 
 * `wkhtmltopdf` ist als Erweiterung für die **neuste Version** von [Sublime Text](https://www.sublimetext.com) gedacht und erfordert im Moment **`Build 4065`** oder neuer.
