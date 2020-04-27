@@ -1,3 +1,17 @@
+# [2.5.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.4.0...2.5.0) (2020-04-27)
+
+
+### Bug Fixes
+
+* **Python:** Properly unload sublime plugin ([e2a448a](https://github.com/jrappen/sublime-wkhtmltopdf/commit/e2a448a79b8f4244fa1481437f3d0e5ca685fc18))
+
+
+### Features
+
+* **Python:** Use new mdpopups API ([9d81874](https://github.com/jrappen/sublime-wkhtmltopdf/commit/9d818741acac6596cf61f2e716e83f7f75f30359))
+
+
+
 # [2.4.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.3.0...2.4.0) (2020-03-09)
 
 ### Features
