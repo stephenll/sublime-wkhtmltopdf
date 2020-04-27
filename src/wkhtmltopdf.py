@@ -46,6 +46,12 @@ def plugin_loaded():
     load_settings()
 
 
+def plugin_unloaded():
+
+    global PKG_PREF
+    PKG_PREF.clear_on_change('reload')
+
+
 # TODO: type hints
 class Wkhtmltopdf(sublime_plugin.TextCommand):
 

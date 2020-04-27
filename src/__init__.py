@@ -11,3 +11,7 @@ from .wkhtmltopdf import *
 
 def plugin_loaded():
     wkhtmltopdf.plugin_loaded()
+
+
+def plugin_unloaded():
+    wkhtmltopdf.plugin_unloaded()
