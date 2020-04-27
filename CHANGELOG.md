@@ -1,11 +1,8 @@
 # [2.4.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.3.0...2.4.0) (2020-03-09)
 
-
 ### Features
 
 * **Python:** Use Py3.3 until PkgCtrl handles 3.8 ([e1f989e](https://github.com/jrappen/sublime-wkhtmltopdf/commit/e1f989e7618495b8d7adcfb4c2e74e279b145b7d))
-
-
 
 # [2.3.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.2.0...2.3.0) (2020-03-09)
 
