@@ -22,8 +22,7 @@ class WkhtmltopdfOpenDocs(sublime_plugin.WindowCommand):
                 # TODO: update for Py3.8 with f-strings
                 name='{}/{}'.format(PKG_NAME, resource_path),
                 contents=sublime.load_resource('Packages/{}/{}'.format(PKG_NAME, resource_path)),
-                md=True,
-                cmd='open_url'
+                md=True
             )
         except Exception as e:
             print('wkhtmltopdf: Exception: {}'.format(e))
