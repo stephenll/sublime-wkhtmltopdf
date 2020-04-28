@@ -1,3 +1,12 @@
+## [2.5.1](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.5.0...2.5.1) (2020-04-28)
+
+
+### Bug Fixes
+
+* **mdpopups:** Remove passing `cmd` to `mdpopups` ([49f787d](https://github.com/jrappen/sublime-wkhtmltopdf/commit/49f787d8371e6844668c8b4767670b2ca1448e77))
+
+
+
 # [2.5.0](https://github.com/jrappen/sublime-wkhtmltopdf/compare/2.4.0...2.5.0) (2020-04-27)
 
 
